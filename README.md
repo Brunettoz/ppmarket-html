@@ -16,8 +16,8 @@ O sistema apresenta produtos divididos em três categorias, serviços oferecidos
 
 ## 🖼 Estrutura do projeto
 PPMarket/
-├── index.html # Página inicial
-├── login.html # Página de login
+├── main.html # Página inicial
+├── index.html # Página de login
 ├── cadastro.html # Página de cadastro
 ├── imagens/ # Imagens dos produtos
 └── README.md # Descrição do projeto
