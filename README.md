@@ -1,31 +1,32 @@
 # 🛒 PPMarket
 
-Projeto de site HTML para um minimercado, desenvolvido como exercício acadêmico.  
-O sistema apresenta produtos divididos em três categorias, serviços oferecidos, e páginas de login e cadastro.
+Projeto desenvolvido para a disciplina **Fundamentos de Sistemas Web** – PUC.  
 
-## 📋 Funcionalidades
+O sistema simula um **supermercado online**, contendo:  
 
-- Página inicial com:
-  - Lista de produtos organizados em:
-    - Frutas e Verduras
-    - Produtos Alimentícios Não Perecíveis
-    - Produtos de Higiene e Limpeza
-  - Lista de serviços oferecidos
-- Página de Login
-- Página de Cadastro
+## ✨ Funcionalidades
+- **Página inicial (`index.html`)**  
+  - Navbar com navegação entre seções.  
+  - Carrossel de imagens responsivo (Bootstrap).  
+  - Listagem de produtos com cards dinâmicos.  
+  - Serviços disponíveis (retirada e tele-entrega).  
+  - Formulário de **Cadastro de Cliente**.  
+  - Formulário de **Agendamento de serviços** (com horário e endereço condicional).  
+  - Hora e data atualizadas em tempo real (JavaScript).  
 
-## 🖼 Estrutura do projeto
-PPMarket/
-├── main.html # Página inicial
-├── index.html # Página de login
-├── cadastro.html # Página de cadastro
-├── imagens/ # Imagens dos produtos
-└── README.md # Descrição do projeto
+- **Página de Login (`login.html`)**  
+  - Autenticação simples com e-mail e senha.  
+  - Link para cadastro.  
 
-## 🛠 Tecnologias utilizadas
+- **Página de Cadastro (`cadastro.html`)**  
+  - Cadastro de novo usuário com validações.  
+  - Labels e atributos **ARIA** para acessibilidade.  
 
-- HTML5
+## 🛠️ Tecnologias utilizadas
+- **HTML5** para estrutura.  
+- **CSS3 / Bootstrap 5** para layout e responsividade.  
+- **JavaScript** para funcionalidades dinâmicas.  
 
-## 📄 Licença
-
-Este projeto é apenas para fins educacionais.
+## 🚀 Como acessar
+O sistema está hospedado no **GitHub Pages**.  
+> 👉 Ao acessar o link do repositório, você será redirecionado automaticamente para `main.html`.  
