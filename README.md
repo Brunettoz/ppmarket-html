@@ -29,4 +29,4 @@ O sistema simula um **supermercado online**, contendo:
 
 ## 🚀 Como acessar
 O sistema está hospedado no **GitHub Pages**.  
-> 👉 Ao acessar o link do repositório, você será redirecionado automaticamente para `main.html`.  
+> 👉 Ao acessar o link do repositório, você será redirecionado automaticamente para `index.html`.  
