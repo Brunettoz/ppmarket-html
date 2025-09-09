@@ -1,0 +1,100 @@
+:root {
+  --verde: #006400;
+  --vermelho: #c8102e;
+  --cinza-claro: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--verde) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--vermelho) !important;
+}
+
+/* ====== CARROSSEL ====== */
+.carousel {
+  max-height: none; /* remove altura fixa */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto; /* altura variável */
+  object-fit: contain;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* fundo semitransparente */
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+}
+
+/* Hero */
+.hero {
+  background: url("imagens/banner_supermercado.jpg") center/cover no-repeat;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  padding: 120px 0;
+}
+
+/* Cards de produtos */
+.card {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.price {
+  color: var(--verde);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: var(--vermelho);
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a50e24;
+}
+
+/* Rodapé */
+footer {
+  background-color: var(--verde);
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--vermelho);
+}

@@ -1,0 +1,34 @@
+:root {
+  --verde: #006400;
+  --vermelho: #c8102e;
+}
+
+.auth-card {
+  max-width: 400px;
+  width: 100%;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-success {
+  background-color: var(--verde);
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #004d00;
+}
+
+.btn-danger {
+  background-color: var(--vermelho);
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #a50e24;
+}

@@ -1,20 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPMarket</title>
-</head>
-<body>
-    <div class="menu_cadastro">
-        <form action="main.html" method="get">
-        <h1>Se cadastre!</h1>
-        <input id="cpf" type="text" inputmode="numeric" pattern="\d{11}" placeholder="Digite seu CPF" />
-        <input id="email" type="email" placeholder="Digite seu e-mail" />
-        <input id="senha" type="password" placeholder="Digite sua senha" />
-        <input id="confirma_senha" type="password" placeholder="Confirme sua senha" />
-        <button type="submit">Cadastrar</button>
-        </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PPMarket - Cadastro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login-cadastro.css" />
+  </head>
+  <body
+    class="d-flex align-items-center justify-content-center vh-100 bg-light"
+  >
+    <div class="card shadow-lg p-4 rounded-4 auth-card">
+      <h1 class="text-center text-success mb-4">Crie sua conta</h1>
+      <form action="main.html" method="get">
+        <div class="mb-3">
+          <label for="cpf" class="form-label">CPF</label>
+          <input
+            id="cpf"
+            type="text"
+            class="form-control"
+            inputmode="numeric"
+            pattern="\d{11}"
+            placeholder="Digite seu CPF"
+            required
+            aria-describedby="cpfHelp"
+          />
+          <small id="cpfHelp" class="form-text text-muted"
+            >Digite apenas números, sem pontos ou traços.</small
+          >
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">E-mail</label>
+          <input
+            id="email"
+            type="email"
+            class="form-control"
+            placeholder="Digite seu e-mail"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input
+            id="senha"
+            type="password"
+            class="form-control"
+            placeholder="Digite sua senha"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="confirma_senha" class="form-label">Confirmar Senha</label>
+          <input
+            id="confirma_senha"
+            type="password"
+            class="form-control"
+            placeholder="Confirme sua senha"
+            required
+            aria-required="true"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-danger w-100">Cadastrar</button>
+      </form>
+      <p class="text-center mt-3">
+        Já tem conta?
+        <a href="index.html" class="text-success fw-bold">Entre aqui</a>
+      </p>
     </div>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
